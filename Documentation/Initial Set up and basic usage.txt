@@ -1,0 +1,17 @@
+Initial Set up
+This suit is designed to run on Windows using Chrome. 
+Although if you desire to run in on other OS, please modify the driver accordingly for each test suit.
+Please change this line 12 of the .py files “ArticlePage.py” and Line 13 on “TestSection2.py”. 
+The drivers for MacOS, and Linux are included on the Drivers folder:
+For example, for Mac:
+wd = webdriver.Chrome(executable_path="../Drivers/chromedriver-mac")
+
+Running the Program.
+If you are using PyCharm, or similar, Got to “TestSection2.py”
+Execute the MyTestSuit class:
+ 
+Once finished, this will generate a Report on the “Reports” folder of the project, easily identified by the date and timestamps on the filename:
+
+The Test Matrix Link is https://drive.google.com/file/d/1niCmAKSx0rct88gHVLdKaiZNk0Q9x3Oz/view?usp=sharing
+
+ 
